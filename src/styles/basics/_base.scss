@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgb(76, 85, 87);
+  color: #fff;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(84, 78, 78, 0.27);
+  color: #01000d;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+main {
+  margin-top: 4.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 0.6em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.435);
+}
+input,
+select,
+a,
+button {
+  cursor: pointer;
+}
+button {
+  background-color: rgb(139, 151, 157);
+  padding: 1.2rem;
+  border-radius: 4px;
+}
+
+p {
+  margin: 0;
+}
+.App-header{
+  margin-top: 15%;
+}
